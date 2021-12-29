@@ -1,0 +1,50 @@
+.interface{
+    text-align: center;
+    background-color: rgb(230, 205, 106);
+    height: 485px;
+}
+.fieldset{
+    height: 350px;
+    width: 400px;
+    padding: 0px;
+    margin-left: 450px;
+    background-color: rgb(208, 224, 133);
+    border-radius: 15px;
+    border: none;
+}
+legend{
+    padding: 20px 0px 20px 0px;
+    width: 280px;
+    background-color: rgb(177, 230, 92);
+    border-radius: 15px;
+}
+.title{
+    font-size: 25px;
+    font-family: sans-serif;
+    color: rgb(28, 32, 23);
+}
+#button{
+    width: 80px;
+    height: 40px;
+    margin-top: 25px;
+    background-color: rgb(43, 43, 139);
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;  
+    border-style: none;
+    color: rgb(255, 255, 255);
+}
+#num1, #num2{
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 35px;
+    width: 75px;
+    font-size:15px;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+}
+#resul{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
