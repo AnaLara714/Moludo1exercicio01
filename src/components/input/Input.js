@@ -9,11 +9,13 @@ class Input extends Component {
     }
 
     N1 = (event) => {
-        this.setState({n1:event.target.value})
+        this.setState({n1:event.target.value});
+        this.setState({resul:""});
     }
 
     N2 = (event) => {
-        this.setState({n2:event.target.value})
+        this.setState({n2:event.target.value});
+        this.setState({resul:""});
     }
 
     Somar = (event) => {
@@ -30,11 +32,11 @@ class Input extends Component {
     render(){
         return(
             <div className="interface">
-                <br/><br/>
+                <br/>
             <fieldset className="fieldset">
                 <legend className="title">CALCULAR SOMA</legend>
                 <form onSubmit={this.Somar} >
-                    <br/><div></div>
+                    
                     <input type= 'number' id = 'num1' value={this.state.n1} onChange={this.N1}/>
                 
                     +
@@ -47,7 +49,7 @@ class Input extends Component {
 
                     <p id="resul"> {this.state.resul} </p>
 
-                    <br/>
+                    
                 </form>
             </fieldset>
             </div>

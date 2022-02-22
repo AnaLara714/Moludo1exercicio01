@@ -6,7 +6,7 @@
 .fieldset{
     height: 350px;
     width: 400px;
-    padding: 0px;
+    margin-top: 20px;
     margin-left: 450px;
     background-color: rgb(208, 224, 133);
     border-radius: 15px;
@@ -34,7 +34,7 @@ legend{
     color: rgb(255, 255, 255);
 }
 #num1, #num2{
-    margin-top: 25px;
+    margin-top: 45px;
     margin-right: 20px;
     margin-left: 20px;
     height: 35px;
@@ -45,6 +45,7 @@ legend{
     text-align: center;
 }
 #resul{
+    margin-top: 30px;
     font-size: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
